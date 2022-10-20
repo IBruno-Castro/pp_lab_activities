@@ -11,7 +11,7 @@ int main(){
 
     int sec, min, h, secSobra, duracao;
 
-    printf("Digite o horário (hora, minuto e segundo) de início do experimento: ");
+    printf("Digite o horario (hora, minuto e segundo) de inicio do experimento: ");
     scanf("%d", &h, &min, &sec);
 
     printf("Digite a duracao do experimento em segundos: ");
@@ -19,10 +19,10 @@ int main(){
 
     duracao = duracao + (h*3600) + (min*60) + sec;
 
-    h = duracao-(duracao%3600)/3600;    
+    h = (duracao-(duracao%3600))/3600;    
     secSobra = duracao%3600;
 
-    min = secSobra-(secSobra%60)/60;
+    min = (secSobra-(secSobra%60))/60;
     secSobra = secSobra%60;
 
     printf("Isso eh igual a %d horas, %d minutos e %d segundos", h, min, secSobra);
