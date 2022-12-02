@@ -27,7 +27,7 @@ int main()
             }
         }
         else if(frase[i] == 'r' && frase[i + 1] != ' '){
-            if(frase[i + 1] != ',' && frase[i + 1] != '.' && frase[i + 1] != '!' && frase[i + 1] != '?' && frase[i + 1] != '\0'){
+            if(frase[i + 1] != ',' && frase[i + 1] != '.' && frase[i + 1] != '!' && frase[i + 1] != '?'){
                 frase[i] = 'l';//se o r nao estiver no final de uma palavra, troque por l
             }
         }
