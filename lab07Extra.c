@@ -14,7 +14,7 @@ int main()
 
     for(int i = 0; i < 200; i++){
 
-        //Se o caracter for igual a R, troque por l
+        //Se o caracter for igual a R, troque por L
         if(frase[i] == 'R'){
             frase[i] = 'L';
         }
