@@ -8,7 +8,7 @@ int main()
     char frase[200];
 
     printf("Digite uma frase: ");
-    fgets(frase, 199, stdin);
+    fgets(frase, 200, stdin);
 
     printf("%s", frase);
 
